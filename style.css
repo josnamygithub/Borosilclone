@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+   
+}
+
+/*header start */
+
+.header{
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    padding-top: 2%;
+    margin-left: 1.5%;
+    width: 190px;
+    float: left;
+
+}
+.logo img{
+    margin-top: 20px;
+}
+.search-main{
+    width: 200px;
+    height: 15px;
+    border: 1px solid #b1cf3f;
+    padding: 08px;
+    float: left;
+    margin-left: 44%;
+    margin-top: 32px;  
+    padding-left:20px;
+}
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 180px;
+}
+.list-main{
+    width: 200px;
+    height:9px;
+    border: 1px solid #b1cf3f;
+    margin-left: 80%; 
+    padding-top: 21PX;  
+}
+select{
+    background: transparent;
+    border: none;
+    outline: 0px;
+    width: 200px;
+    margin-top: -13px;
+   
+}
+
+/*header end */
+
+.menu-list{
+    width: 100%;
+    height: 12%;
+    background-color:#112F64;  
+    margin-top: 71px;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: -36px;
+   
+}
+.menu-list ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.menu-list ul li:hover{
+    text-decoration-line: underline;
+    color: #b1cf3f;
+}
+
+
+/* image slider start*/
+
+.slider{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 100%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    height: 550px;
+}
+/* CSS for manual slide navigation*/
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn:hover{
+    background: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -30%;
+}
+#radio3:checked ~ .first{
+    margin-left: -80%;
+}
+#radio4:checked ~ .first{
+    margin-left: -160%;
+}
+#radio5:checked ~ .first{
+    margin-left: -400%;
+}
+
+
+
+/* image slider end*/
+
+/* Text portion start*/
+.text{
+    font-size: 30px!important;
+    font-family: 'Verlag-Light';
+    color: #12355b;
+    text-align: center;
+}
+h3{
+    font-family: 'SourceSans-Bold';
+    color: #183964;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 120%;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+}
+
+
+/* Text portion end*/
+
+
+/* Borosil list start*/
+.list{
+    background: #F1F3F6;
+    width: auto;
+    height: 400px;
+}
+.box{
+    width: 24.5%;
+    height: 400px;
+    float: left;  
+}
+
+
+.imgMain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.paragraph{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.9;
+    color: #323232;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.verticalLine {
+    border-right: 1.5px solid lightgray;
+    height: 100px;
+    width: 7px;
+    height: 150px;
+    float: left;   
+    margin-top: 80px;
+  }
+/* Borosil list end*/
+
+/* footer start */
+
+.footer{
+ width: 100%;
+    height:30px;
+    margin-top:-10px ;
+    
+
+}
+.copy-right{
+    width: 35%;
+    height: 100%;
+    font-size: 16px;
+    color:white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 20px;
+}
+.footer-menu{
+    width: 31%;
+    height: 76%;
+    margin-left: 932px;
+    float: left;
+    margin-top: -88px;
+   
+}
+.footer-menu-list{
+    width: 100%;
+    height: 10%;
+    background-color:#112F64;  
+    padding-top:10px;
+     margin-top: -5px;
+   
+}
+
+.footer-menu-list ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(242, 242, 242);
+    padding: 15px;
+    padding-top: 3px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left:10px;
+   
+}
+.footer img{
+    margin-top: -66px;
+}
+.head{
+    padding-top: 31px;
+}
+
+/* footer end */
